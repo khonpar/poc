@@ -29,18 +29,24 @@ $ mvn test
 $ mvn surefire-report:report-only
 $ mvn site -DgenerateReports=false
 ```
+```
+Add plugin to m2/.settings.xml
+<pluginGroups>
+  <pluginGroup>com.spotify</pluginGroup>
+</pluginGroups>
+```
 ### Docker
 To Create A Docker Image Using Maven
 ```sh
-$ mvn clean package docker:build
+$ mvn clean package dockerfile:build
 ```
 This application is available over Docker Hub io
 ```sh
-docker pull TestUsernathData/creditcardprocessor:latest
+docker pull khonpar/credit-card-app:1.0.0
 ```
 **Docker Run**
 ```sh
-docker run -p '<require-port>':8080 TestUsernathData/creditcardprocessor:latest
+docker run -p '<require-port>':8080 khonpar/credit-card-app:1.0.0
 ```
 
 ### SpringFox Swagger
