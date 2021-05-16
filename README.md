@@ -17,7 +17,7 @@ A spring boot application which exposes 2 RestEndpoints- Add new cards and list 
 This application is built using maven and all dependencies will be added automatically.
 
 ```sh
-$ cd credit-card-app
+$ cd poc-master
 $ mvn clean
 $ mvn clean spring-boot:run
 ```
