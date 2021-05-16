@@ -52,8 +52,8 @@ localhost:8080/ccp/v1/swagger-ui.html
 localhost:8080/ccp/v1/v2/api-docs
 ```
 ### RestAPI Details
-![alt text](https://raw.githubusercontent.com/TestUserData/credit-card-processor/master/swagger.png)
+![alt text](https://github.com/khonpar/poc/blob/master/swagger.png)
 
 
 ### Test Cases
-![alt text](https://raw.githubusercontent.com/TestUserData/credit-card-processor/master/testcase.png)
+![alt text](https://github.com/khonpar/poc/blob/master/testcases.png)
