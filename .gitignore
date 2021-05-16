@@ -1,0 +1,11 @@
+*.iml
+.idea/
+target/
+*.log
+log4j*_local.xml
+.project
+.classpath
+.settings/
+.springBeans
+/*.~log
+.attach_pid*
