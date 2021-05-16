@@ -29,8 +29,8 @@ $ mvn test
 $ mvn surefire-report:report-only
 $ mvn site -DgenerateReports=false
 ```
-```
 Add plugin to m2/.settings.xml
+```
 <pluginGroups>
   <pluginGroup>com.spotify</pluginGroup>
 </pluginGroups>
